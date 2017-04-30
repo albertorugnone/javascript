@@ -12,6 +12,6 @@ describe('Minimizing globals', function () {
     it('has a global object accessible when you use this outside of any function', function () {
       assert.equal(myglobal, 'hello');
       assert.equal(global.myglobal, 'hello');
-    })
-  })
+    });
+  });
 });
